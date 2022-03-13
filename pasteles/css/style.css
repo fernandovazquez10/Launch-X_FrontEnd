@@ -1,0 +1,78 @@
+ /* Barra de navegación*/
+nav {
+    background-color: #f05f40;
+    color: #ffffff;
+}
+.button{
+    display: inline-block;
+    background: #ffffff;
+    color: #f05f40;
+    padding: 2px 6px;
+    margin: 5px 3px;
+    border-radius: 30px;
+    font-family: 'Courgette', cursive;
+}
+a{
+    text-decoration: none;
+}
+/* Contenido del inicio*/
+::-webkit-scrollbar {
+    display: none;
+    }
+image {
+    padding: 0;
+}
+.Pasteles {
+    background-color: #ffffff;
+    width: max(200px, 20vmin);
+    padding: 20 ;
+
+}
+.Toppings {
+    background-color: #ffffff;
+}
+.col-sm-3 {
+    width: 25%;
+    text-align: center;
+}
+.row {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.img {
+    max-height: 150px;
+    border-radius: 5%;
+    margin: auto;
+    display: block;
+}
+h3, h2, h1, p{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+/* Formulario*/
+.btn{
+
+    margin: auto;
+    display: block;
+}
+
+
+/* Pie de pagina*/
+footer {
+    background-color:  #f05f40;
+    padding-bottom: 0%;
+    text-align: center;
+}
+iframe{
+    border-radius: 5%;
+}
+footer p{
+    color: #ffffff;
+}
+#Numero{
+    box-shadow:  none;
+    color: #ffffff;
+    font-family: 'Courgette', cursive;
+}
