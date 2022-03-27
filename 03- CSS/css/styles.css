@@ -1,4 +1,7 @@
 /* <------ Navbar ------>*/
+#brand{
+    color: #3757d5;
+}
 nav ul{
     display: inline-block;
     list-style-type: none;
@@ -6,12 +9,30 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
+    color: #6d7b93;
+}
+button{
+
+    display: inline-block;
+    background: #3757d5;
+    color: #ffffff;
+    padding: 4px 12px;
+    margin: 5px 3px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
 }
 /* <------ Body ------>*/
 ::-webkit-scrollbar {
     display: none;
     }
-.wrapper {
+h1,h2, label{
+    color: #1f3e72;
+}
+p, span{
+    color: #6d7b93;
+}
+.wrapper, .wrapper2, .wrapper3, .wrapper4{
     display: grid;
     grid-template-columns: (2,1fr);
     grid-gap: 10px;
@@ -30,34 +51,115 @@ nav ul li{
     grid-column: 1/2;
     grid-row: 1/2;
     padding-top: 300px; 
-   
+   }
+
+/* <---- Banner ----->*/
+#banner{
+    background-color: #fbfdfe;
+
 }
 
+/* <---- Mujer ---->*/
+.uno{
+    grid-column: 2/2;
+    grid-row: 1;
+}
+.dos{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+#mujer{
+    max-width: 40rem;
+}
+/* <--- Enfermero --->*/
+.texto{
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.enfermero{
+    grid-column: 2/2;
+    grid-row: 1;
+}
+#enfermero{
+    max-width: 40rem;
+    float: right;
+}
+
+/* <------ Cartas ----->*/
+.call {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+.chat {
+    grid-column: 2/2;
+    grid-row: 1;
+}
+.video {
+    grid-column: 1/2;
+    grid-row: 2;
+}
+.message{
+    grid-column: 2/2;
+    grid-row: 2;
+}
+
+/* Ya no se que hice aquí xd*/
 div ul{
 
     list-style-type: none;
 }
-div ul li{
+.three ul li{
     display: inline-block;
     margin-right: 5%;
 }
 
 
-/* <------ Cartas ----->*/
-
-
 
 /* <------ logos ------>*/
-.marca {
-    height: 50px;
 
-    
-}
-#sinovac{
-    height: 40px;
-}
 #marcas{
-    text-align: center;
-    
+    background-color: var(--blanco);
+    width: auto;
+    height: 29.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 192rem;
+    margin: 0 auto;
 }
+
+
+
 /* <------ Footer ------>*/
+footer{
+    background-color: #eef3ff;
+}
+.wrapper5{
+    display: grid;
+    grid-template-columns: (6,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: (100px, auto);
+}
+
+
+#extra{
+    text-align: left;
+}
+
+.vaccination{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.about{
+    grid-column: 4;
+    grid-row: 1;
+}
+.company{
+    grid-column: 5;
+    grid-row: 1;
+}
+.support{
+    grid-column: 6;
+    grid-row: 1;
+}
